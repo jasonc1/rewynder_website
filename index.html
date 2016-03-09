@@ -131,10 +131,27 @@
     </div>
 
 
-    <div class = "section contact grey">
-      <div class = "container center">
+    <div class = "contact">
+      <div class = "overlay">
+        <div class = "container">
+            <h1>Get in Touch!</h1>
 
+            <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname">
 
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname">
+
+              <label for="country">Email</label>
+              <input type="text" id= "email" name="email">
+
+              <label for="message">Message</label>
+              <textarea placeholder = "write us something!" cols="30" rows="6"></textarea>
+              <input class = "waves-effect lighten-1 btn-flat col s3 green" type="submit" value="Submit">
+            </form>
+
+        </div>
       </div>
     </div>
   </body>
